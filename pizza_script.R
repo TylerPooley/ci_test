@@ -5,6 +5,6 @@ df <- data.frame(pepperoni, margharita, row.names = c("Like Score", "Avg Price")
 
 
 
-uplift <- 1.10
+uplift <- 10
 
 df_new <- df* uplift
